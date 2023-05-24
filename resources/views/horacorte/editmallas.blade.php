@@ -45,8 +45,27 @@
 
                                             <div class="form-group col-sm-3">
                                                 <label class="text-info" for="campaña"><b>Campaña</b></label>
-                                                <input type="text" class="form-control mt-3" id="campaña" name="campaña"
-                                                    value="{{$mallas ->campaña}}">
+                                                <select class="form-control" name="foco">
+                                                    <option selected>{{$mallas->foco}}</option>
+                                                    <option value="Inbound">Inbound</option>
+                                                    <option value="Phoenix">Phoenix</option>
+                                                    <option value="Portabilidad">Portabilidad</option>
+                                                    <option value="Prepost">Prepost</option>
+                                                    <option value="Staff Administrativo">Staff Administrativo</option>
+                                                    <option value="Staff Calidad">Staff Calidad</option>
+                                                    <option value="Staff Comercial">Staff Comercial</option>
+                                                    <option value="Staff Datos Metricas Y Workforce">Staff Datos Metricas Y Workforce</option>
+                                                    <option value="Staff Desarrollo">Staff Desarrollo</option>
+                                                    <option value="Staff Diseño">Staff Diseño</option>
+                                                    <option value="Staff Financiero">Staff Financiero</option>
+                                                    <option value="Staff Gerencial">Staff Gerencial</option>
+                                                    <option value="Staff Gestión Organizacional y Método">Staff Gestión Organizacional y Método</option>
+                                                    <option value="Staff It">Staff It</option>
+                                                    <option value="Staff RRHH">Staff RRHH</option>
+                                                    <option value="Staff Validacion">Staff Validacion</option>
+                                                    <option value="Up Grade">Up Grade</option>
+                                                    <option value="Whatsapp Digital">Whatsapp Digital</option>
+                                                </select>
                                             </div>
                                             <div class="form-group col-sm-3">
                                                 <label class="text-info" for="foco"><b>Foco</b></label></label>
@@ -55,8 +74,55 @@
                                             </div>
                                             <div class="form-group col-sm-3">
                                                 <label class="text-info" for="encargado"><b>Encargado</b></label>
-                                                <input type="text" class="form-control mt-3" name="encargado"
-                                                    value="{{$mallas ->encargado}}" id="encargado" required>
+                                                <select class="form-control" name="encargado">
+                                                    <option selected>Selecciona</option>
+                                                    <option value=""></option>
+                                                    <option selected>{{$mallas->encargado}}</option>
+                                                    <option value="Juan David Cetina Ochoa">Juan David Cetina Ochoa</option>
+                                                    <option value="Maria Alejandra Adan Sarmiento">Maria Alejandra Adan Sarmiento</option>
+                                                    <option value="Luis Eduardo Bohorquez Buitrago">Luis Eduardo Bohorquez Buitrago</option>
+                                                    <option value="Camilo Esteban Romero Leiva">Camilo Esteban Romero Leiva</option>
+                                                    <option value="Xiomara Liceth Yule Rivera">Xiomara Liceth Yule Rivera</option>
+                                                    <option value="Carlos Daniel Rincon Uneme">Carlos Daniel Rincon Uneme</option>
+                                                    <option value="Jhon Sebastian Alape Leyton">Jhon Sebastian Alape Leyton</option>
+                                                    <option value="Juan David Vasquez Salazar">Juan David Vasquez Salazar</option>
+                                                    <option value="Andres Eduardo Salcedo Guillen">Andres Eduardo Salcedo Guillen</option>
+                                                    <option value="Daniel Andres Luengas Caballero">Daniel Andres Luengas Caballero</option>
+                                                    <option value="Daniel Ricardo Palacios Bustos">Daniel Ricardo Palacios Bustos</option>
+                                                    <option value="David Edilberto Gonzalez Hernandez">David Edilberto Gonzalez Hernandez</option>
+                                                    <option value="Erik David Restrepo Garzon">Erik David Restrepo Garzon</option>
+                                                    <option value="Gabriel David Cabarcas Ribon">Gabriel David Cabarcas Ribon</option>
+                                                    <option value="Jenifer Nicol Suaza Giraldo">Jenifer Nicol Suaza Giraldo</option>
+                                                    <option value="Jennifer Alejandra Monroy Ortiz">Jennifer Alejandra Monroy Ortiz</option>
+                                                    <option value="Jenny Patricia Barbosa Alvarado">Jenny Patricia Barbosa Alvarado</option>
+                                                    <option value="Jenny Rocio Murillo Meneses">Jenny Rocio Murillo Meneses</option>
+                                                    <option value="Jesus Antonio Archila Soracipa">Jesus Antonio Archila Soracipa</option>
+                                                    <option value="Karen Julissa Auzaque Combita">Karen Julissa Auzaque Combita</option>
+                                                    <option value="Nicolas Salazar Delgadillo">Nicolas Salazar Delgadillo</option>
+                                                    <option value="Ingrid Johanna Amaya Rincon">Ingrid Johanna Amaya Rincon</option>
+                                                    <option value="Maria Jacqueline Arias De Pindray">Maria Jacqueline Arias De Pindray</option>
+                                                    <option value="Carlos Alberto Trujillo Vargas">Carlos Alberto Trujillo Vargas</option>
+                                                    <option value="Johanna Paola Castrillon Londoño">Johanna Paola Castrillon Londoño</option>
+                                                    <option value="Andres Eduardo Vargas Valenzuela">Andres Eduardo Vargas Valenzuela</option>
+                                                    <option value="Harold Andres Cardenas Gutierrez">Harold Andres Cardenas Gutierrez</option>
+                                                    <option value="Jose Luis Aponte Blanco">Jose Luis Aponte Blanco</option>
+                                                    <option value="Linna Lizeth Martinez Sanchez">Linna Lizeth Martinez Sanchez</option>
+                                                    <option value="Miguel Leonardo Tocora Campos">Miguel Leonardo Tocora Campos</option>
+                                                    <option value="Jesus Antonio Viana Marín">Jesus Antonio Viana Marín</option>
+                                                    <option value="Carlos Orlando Pastrana Acevedo">Carlos Orlando Pastrana Acevedo</option>
+                                                    <option value="Johan Esteban Riaño Muñoz">Johan Esteban Riaño Muñoz</option>
+                                                    <option value="Leidy Milena Quiroga Castañeda">Leidy Milena Quiroga Castañeda</option>
+                                                    <option value="Magda Lorena Ramirez Ospina">Magda Lorena Ramirez Ospina</option>
+                                                    <option value="Gerencia General">Gerencia General</option>
+                                                    <option value="Anderson Fernando Soler Caro">Anderson Fernando Soler Caro</option>
+                                                    <option value="Juan Jose Cano Salazar">Juan Jose Cano Salazar</option>
+                                                    <option value="Mabel Barragan Salazar">Mabel Barragan Salazar</option>
+                                                    <option value="Arias De Pindray Maria Jacqueline">Arias De Pindray Maria Jacqueline</option>
+                                                    <option value="Laura Vanesa Currea">Laura Vanesa Currea</option>
+                                                    <option value="William Leonardo Torres Peña">William Leonardo Torres Peña</option>
+                                                    
+
+                                                </select>
                                             </div>
                                         </div>
                                         <div class=" mt-4 pt-4">

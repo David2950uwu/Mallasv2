@@ -12,6 +12,23 @@
                                 <h3 style="font-size:2em;" class="card-title"><b>Gestion de Mallas</b></h3>
                                 <p class="card-category"><b>Gestión de mallas</b></p>
                             </div>
+                            @if (session('warning'))
+                                <div class="alert alert-warning">
+                                    {{ session('warning') }}
+                                </div>
+                             @endif
+
+                            @if (session('danger'))
+                             <div class="alert alert-danger">
+                                    {{ session('danger') }}
+                             </div>
+                            @endif
+
+                            @if (session('success'))
+                            <div class="alert alert-success">
+                                    {{ session('success') }}
+                            </div>
+                            @endif
                             <div class="card-body d-flex ">
                                 <div class="col-12 text-right ">
                                     <h4 class="float-left mt-3"><b>Tabla de datos</b> </h4>
@@ -71,7 +88,7 @@
 
                                 </table>
                             </div>
-                            <form action="#">
+                            <form action="{{route('mallas.excel')}}">
                                 <button type="submit" class="btn btn-sm btn-success float-left m-lg-4 "><i class="material-icons">file_download</i>Descargar</button>
                             </form>
                         </div>
