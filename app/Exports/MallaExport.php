@@ -24,14 +24,16 @@ class MallaExport implements FromCollection, ShouldAutoSize, WithStyles, WithHea
     {
         return Malla::with('user')->get()->map(function ($malla) {
             return [
-                'ID' => $malla-> id,
-                'USERS_ID' => $malla-> users_id,
+                /*'ID' => $malla-> id,
+                'USERS_ID' => $malla-> users_id,*/
                 'NOMBRES' => $malla->user->name,
                 'CEDULA' => $malla->user->cedula,
                 'SEMANA' => $malla-> semana,
                 'CAMPAÑA' => $malla->campaña,
                 'FOCO' => $malla->foco,
                 'ENCARGADO' => $malla->encargado,
+                'TOTAL HORAS' => $malla->horastotal,
+                'DIA DESCANSO' => $malla->diadescanso,
                 'INICIO LUNES' => $malla->lunesinicio,
                 'FINAL LUNES' => $malla->lunesfinal,
                 'LUNES DESCANSO' => $malla->lunesdescanso1,
@@ -74,8 +76,6 @@ class MallaExport implements FromCollection, ShouldAutoSize, WithStyles, WithHea
                 'DOMINGO ALM INICIO' => $malla->dom_alm_inicio,
                 'DOMINGO ALM FINAL' => $malla->domingo_alm_final,
                 'DOMINGO FIN' => $malla->domingodescanso2,
-                'TOTAL HORAS' => $malla->horastotal,
-                'DIA DESCANSO' => $malla->diadescanso,
                 'CREADA' => $malla->created_at,
                 'ACTUALIZADA' => $malla->created_at,
                 
@@ -120,14 +120,16 @@ class MallaExport implements FromCollection, ShouldAutoSize, WithStyles, WithHea
 
         public function headings(): array{
             return [
-            'ID',
-            'USERS_ID',
+            /*'ID',
+            'USERS_ID',*/
             'NOMBRES',
             'CEDULA',
             'SEMANA',
             'CAMPAÑA',
             'FOCO',
             'ENCARGADO',
+            'TOTAL HORAS',
+            'DIA DESCANSO',
             'INICIO LUNES',
             'FINAL LUNES',
             'LUNES DESCANSO',
@@ -170,8 +172,6 @@ class MallaExport implements FromCollection, ShouldAutoSize, WithStyles, WithHea
             'DOMINGO ALM INICIO',
             'DOMINGO ALM FINAL',
             'DOMINGO FIN',
-            'TOTAL HORAS',
-            'DIA DESCANSO',
             'CREADA',
             'ACTUALIZADA',
             
