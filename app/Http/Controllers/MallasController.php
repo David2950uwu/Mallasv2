@@ -88,7 +88,7 @@ class MallasController extends Controller
                  $mallas ->lunesinicio= $request->get('lunesinicio');
                  $mallas ->lunesfinal= $request->get('lunesfinal');
                  $mallas ->lunesdescanso1= $request->get('lunesdescanso1');
-                 $mallas ->lun_alm_inicio= $request->get('lunes_alm_inicio');
+                 $mallas ->lunes_alm_inicio= $request->get('lunes_alm_inicio');
                  //$mallas ->lun_alm_final= $request->get('lunes_alm_final');
                  //$mallas ->lunesdescanso2= $request->get('lunesdescanso2');
 
@@ -97,7 +97,7 @@ class MallasController extends Controller
                  $mallas ->martesinicio= $request->get('martesinicio');
                  $mallas ->martesfinal= $request->get('martesfinal');
                  $mallas ->martesdescanso1= $request->get('martesdescanso1');
-                 $mallas ->mar_alm_inicio= $request->get('martes_alm_inicio');
+                 $mallas ->martes_alm_inicio= $request->get('martes_alm_inicio');
                  //$mallas ->mar_alm_final= $request->get('martes_alm_final');
                  //$mallas ->martesdescanso2= $request->get('martesdescanso2');
 
@@ -107,7 +107,7 @@ class MallasController extends Controller
                  $mallas ->miercolesinicio= $request->get('miercolesinicio');
                  $mallas ->miercolesfinal= $request->get('miercolesfinal');
                  $mallas ->miercolesdescanso1= $request->get('miercolesdescanso1');
-                 $mallas ->mie_alm_inicio= $request->get('miercoles_alm_inicio');
+                 $mallas ->miercoles_alm_inicio= $request->get('miercoles_alm_inicio');
                 // $mallas ->mie_alm_final= $request->get('miercoles_alm_final');
                  // $mallas ->miercolesdescanso2= $request->get('miercolesdescanso2');
         
@@ -116,7 +116,7 @@ class MallasController extends Controller
                  $mallas ->juevesinicio= $request->get('juevesinicio');
                  $mallas ->juevesfinal= $request->get('juevesfinal');
                  $mallas ->juevesdescanso1= $request->get('juevesdescanso1');
-                 $mallas ->jue_alm_inicio= $request->get('jueves_alm_inicio');
+                 $mallas ->jueves_alm_inicio= $request->get('jueves_alm_inicio');
                  //$mallas ->jue_alm_final= $request->get('jueves_alm_final');
                  //$mallas ->juevesdescanso2= $request->get('juevesdescanso2');        
 
@@ -125,7 +125,7 @@ class MallasController extends Controller
                  $mallas ->viernesinicio= $request->get('viernesinicio');
                  $mallas ->viernesfinal= $request->get('viernesfinal');
                  $mallas ->viernesdescanso1= $request->get('viernesdescanso1');
-                 $mallas ->vie_alm_inicio= $request->get('viernes_alm_inicio');
+                 $mallas ->viernes_alm_inicio= $request->get('viernes_alm_inicio');
                  //$mallas ->vie_alm_final= $request->get('viernes_alm_final');
                  //$mallas ->viernesdescanso2= $request->get('viernesdescanso2');
 
@@ -134,7 +134,7 @@ class MallasController extends Controller
                   $mallas ->sabadoinicio= $request->get('sabadoinicio');
                   $mallas ->sabadofinal= $request->get('sabadofinal');
                   $mallas ->sabadodescanso1= $request->get('sabadodescanso1');
-                  $mallas ->sab_alm_inicio= $request->get('sabado_alm_inicio');
+                  $mallas ->sabado_alm_inicio= $request->get('sabado_alm_inicio');
                   //$mallas ->sab_alm_final= $request->get('sabado_alm_final');
                   //$mallas ->sabadodescanso2= $request->get('sabadodescanso2');
 
@@ -144,7 +144,7 @@ class MallasController extends Controller
                  $mallas ->domingoinicio= $request->get('domingoinicio');
                  $mallas ->domingofinal= $request->get('domingofinal');
                  $mallas ->domingodescanso1= $request->get('domingodescanso1');
-                 $mallas ->dom_alm_inicio= $request->get('domingo_alm_inicio');
+                 $mallas ->domingo_alm_inicio= $request->get('domingo_alm_inicio');
     
 
        
@@ -252,7 +252,7 @@ class MallasController extends Controller
              $mallas ->lunesinicio= $request->get('lunesinicio');
              $mallas ->lunesfinal= $request->get('lunesfinal');
              $mallas ->lunesdescanso1= $request->get('lunesdescanso1');
-             $mallas ->lun_alm_inicio= $request->get('lunes_alm_inicio');
+             $mallas ->lunes_alm_inicio= $request->get('lunes_alm_inicio');
              //$mallas ->lun_alm_final= $request->get('lunes_alm_final');
              //$mallas ->lunesdescanso2= $request->get('lunesdescanso2');
 
@@ -261,7 +261,7 @@ class MallasController extends Controller
              $mallas ->martesinicio= $request->get('martesinicio');
              $mallas ->martesfinal= $request->get('martesfinal');
              $mallas ->martesdescanso1= $request->get('martesdescanso1');
-             $mallas ->mar_alm_inicio= $request->get('martes_alm_inicio');
+             $mallas ->martes_alm_inicio= $request->get('martes_alm_inicio');
              //$mallas ->mar_alm_final= $request->get('martes_alm_final');
              //$mallas ->martesdescanso2= $request->get('martesdescanso2');
 
@@ -271,7 +271,7 @@ class MallasController extends Controller
              $mallas ->miercolesinicio= $request->get('miercolesinicio');
              $mallas ->miercolesfinal= $request->get('miercolesfinal');
              $mallas ->miercolesdescanso1= $request->get('miercolesdescanso1');
-             $mallas ->mie_alm_inicio= $request->get('miercoles_alm_inicio');
+             $mallas ->miercoles_alm_inicio= $request->get('miercoles_alm_inicio');
             // $mallas ->mie_alm_final= $request->get('miercoles_alm_final');
              // $mallas ->miercolesdescanso2= $request->get('miercolesdescanso2');
     
@@ -280,7 +280,7 @@ class MallasController extends Controller
              $mallas ->juevesinicio= $request->get('juevesinicio');
              $mallas ->juevesfinal= $request->get('juevesfinal');
              $mallas ->juevesdescanso1= $request->get('juevesdescanso1');
-             $mallas ->jue_alm_inicio= $request->get('jueves_alm_inicio');
+             $mallas ->jueves_alm_inicio= $request->get('jueves_alm_inicio');
              //$mallas ->jue_alm_final= $request->get('jueves_alm_final');
              //$mallas ->juevesdescanso2= $request->get('juevesdescanso2');        
 
@@ -289,7 +289,7 @@ class MallasController extends Controller
              $mallas ->viernesinicio= $request->get('viernesinicio');
              $mallas ->viernesfinal= $request->get('viernesfinal');
              $mallas ->viernesdescanso1= $request->get('viernesdescanso1');
-             $mallas ->vie_alm_inicio= $request->get('viernes_alm_inicio');
+             $mallas ->viernes_alm_inicio= $request->get('viernes_alm_inicio');
              //$mallas ->vie_alm_final= $request->get('viernes_alm_final');
              //$mallas ->viernesdescanso2= $request->get('viernesdescanso2');
 
@@ -298,7 +298,7 @@ class MallasController extends Controller
               $mallas ->sabadoinicio= $request->get('sabadoinicio');
               $mallas ->sabadofinal= $request->get('sabadofinal');
               $mallas ->sabadodescanso1= $request->get('sabadodescanso1');
-              $mallas ->sab_alm_inicio= $request->get('sabado_alm_inicio');
+              $mallas ->sabado_alm_inicio= $request->get('sabado_alm_inicio');
               //$mallas ->sab_alm_final= $request->get('sabado_alm_final');
               //$mallas ->sabadodescanso2= $request->get('sabadodescanso2');
 
@@ -308,7 +308,7 @@ class MallasController extends Controller
              $mallas ->domingoinicio= $request->get('domingoinicio');
              $mallas ->domingofinal= $request->get('domingofinal');
              $mallas ->domingodescanso1= $request->get('domingodescanso1');
-             $mallas ->dom_alm_inicio= $request->get('domingo_alm_inicio');
+             $mallas ->domingo_alm_inicio= $request->get('domingo_alm_inicio');
 
 
    
